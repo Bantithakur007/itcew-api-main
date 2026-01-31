@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express();
 const cors = require('cors')
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const connectDB = require('./db')
 const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
